@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "2",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "3",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "4",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "5",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "6",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "7",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "8",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    },
+    {
+        "id": "9",
+        "img": "https://images.pexels.com/photos/1694360/pexels-photo-1694360.jpeg",
+        "desc": "Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet Piso en Barcelona lorem ipsum set amet",
+        "price": "900.000€"
+    }
+] 
+
