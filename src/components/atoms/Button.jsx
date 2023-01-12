@@ -2,7 +2,11 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { colors, FlexBox } from '../../styles'
 
-const ButtonStyled = styled(FlexBox).attrs({justify:'center', align: 'center'})`
+// Creo que seria mejor tener styled.button, aunque me vale
+const ButtonStyled = styled(FlexBox).attrs({
+  justify: 'center',
+  align: 'center',
+})`
   cursor: pointer;
   border-radius: 8px;
   color: white;
@@ -16,7 +20,12 @@ export default function Button({
   onClick = () => {},
 }) {
   return (
-    <ButtonStyled as='button' type="button" onClick={onClick} style={{ background: bg, padding: p }}>
+    <ButtonStyled
+      as="button"
+      type="button"
+      onClick={onClick}
+      style={{ background: bg, padding: p }}
+    >
       {children}
     </ButtonStyled>
   )
