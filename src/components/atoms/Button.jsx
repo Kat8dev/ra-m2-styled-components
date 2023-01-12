@@ -21,8 +21,8 @@ export default function Button({
 }) {
   return (
     <ButtonStyled
-      as="button"
-      type="button"
+      as='button'
+      type='button'
       onClick={onClick}
       style={{ background: bg, padding: p }}
     >

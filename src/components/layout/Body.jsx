@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-// import { MdSearch } from 'react-icons/md'
 import Header from './Header'
 import SubHeader from './SubHeader'
 import { FlexBox } from '../../styles'

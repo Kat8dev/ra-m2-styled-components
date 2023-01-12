@@ -12,7 +12,7 @@ function Label({ children, id, htmlFor }) {
 }
 
 Label.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.string.isRequired,
   id: PropTypes.string,
   htmlFor: PropTypes.string,
 }

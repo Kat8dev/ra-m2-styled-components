@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Houses from '../components/organisms/Houses'
+import { Houses } from '../components/organisms'
 import { Body } from '../components/layout'
 import url from '../data.json'
 import { FlexBox, colors, Grid } from '../styles'
