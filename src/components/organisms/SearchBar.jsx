@@ -5,7 +5,7 @@ import { Icon, Button, Option } from '../atoms'
 import { InputTextSelect } from '../molecules'
 
 const SearchBarStyled = styled(FlexBox).attrs({ direction: 'row' })`
-    gap: 1rem;
+  gap: 1rem;
 `
 
 function SearchBar() {
@@ -13,6 +13,7 @@ function SearchBar() {
     'linear-gradient(320deg, rgba(77,106,198,1) 0%, rgba(0,212,255,1) 100%)'
   return (
     <SearchBarStyled>
+      {/* Debería ser un SelectGroup y tener un prop options al cual le pasas un array y renderizas las opciones, ahora has escrito 4, pero si fuesen 500 no tendría sentido escribirlas */}
       <InputTextSelect
         title="piso, chalet o garaje..."
         name="buildingType"
