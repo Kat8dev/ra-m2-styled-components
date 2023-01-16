@@ -25,7 +25,7 @@ function SearchBar() {
   const bg =
     'linear-gradient(320deg, rgba(77,106,198,1) 0%, rgba(0,212,255,1) 100%)'
   return (
-    <SearchBarStyled>
+    <SearchBarStyled as="form">
       <SelectGroup
         label="piso, chalet o garaje..."
         name="buildingType"
