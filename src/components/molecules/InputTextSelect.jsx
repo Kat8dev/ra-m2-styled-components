@@ -9,13 +9,16 @@ const StyledInputTextSelect = styled(FlexBox).attrs({ direction: 'row' })`
   }
 `
 
-function InputTextSelect({  name, title, id, htmlFor, children }) {
+// Llamarlo SelectGroup
+function InputTextSelect({ name, title, id, htmlFor, children }) {
   return (
     <StyledInputTextSelect>
       <Label id={id} htmlFor={htmlFor}>
         {title}
       </Label>
-      <Select id={id} name={name}>{children}</Select>
+      <Select id={id} name={name}>
+        {children}
+      </Select>
     </StyledInputTextSelect>
   )
 }
