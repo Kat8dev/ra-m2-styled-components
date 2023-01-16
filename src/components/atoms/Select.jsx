@@ -13,9 +13,9 @@ const StyledSelect = styled.select`
   line-height: 1.50;
 `
 
-function Select({ id, name, children }) {
+function Select({ id, name, onChange, children }) {
   return (
-    <StyledSelect defaultValue='default' id={id} name={name}>{children}</StyledSelect>
+    <StyledSelect defaultValue='default' id={id} name={name} onChange={onChange}>{children}</StyledSelect>
   )
 }
 
@@ -23,6 +23,7 @@ Select.propTypes = {
   children: PropTypes.node.isRequired,
   id: PropTypes.string,
   name: PropTypes.string,
+  onChange: PropTypes.func,
 }
 
 export default Select

@@ -23,8 +23,9 @@ function Houses({ data }) {
 }
 
 Houses.propTypes = {
-  // Definir el array de datos más concretamente, definiendo cada elemento
-  data: PropTypes.array,
+ data: PropTypes.arrayOf(
+    PropTypes.oneOfType([ PropTypes.object ]),
+  ),
 }
 
 export default Houses
